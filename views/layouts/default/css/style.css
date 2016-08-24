@@ -1,0 +1,109 @@
+.text{
+		color: #ff4500;
+		text-align: center;
+		font-size: 2em;
+		font: bold 2.5em monospace;
+	}
+    .num{
+    	background-color: #ff4500;
+    	color: #fff;
+    	font-size: 1.2em;
+    	padding: 3px;
+    	display: inline-block;
+    	margin-top: 4px;
+
+    }
+    
+div{
+	color: #6A5ACD;
+}
+p{
+	color: #000;
+
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+nav li{
+	display: inline;
+}
+nav li a{
+	text-decoration: none;
+	padding: 5px;
+	color:#333;
+	font-weight: bold;
+}
+nav li a:hover{
+	background-color: #ff1493;
+	border-radius: 5px;
+}
+span{
+	margin-right: 5px;
+}
+@media (min-width: 320px){
+	nav{
+		display: none;
+	}
+	nav li{
+		display: block;
+		width: 50%;
+		float: left;
+	}
+	#menu{
+		color: white;
+		font-size: 20px;
+		width: 100%;
+		padding-left: 10px;
+		background-color: #999;
+	}
+	#menu .bt-menu{
+		display: block;
+		padding: 10px;
+		text-decoration: none;
+		color: #000;
+		font-weight: bold;
+	}
+	#menu span{
+		float: right;
+	}
+
+	hr{
+		border-style: dotted;
+		color: #000;
+
+	}
+
+	.menu-container, .menu-container-special {
+		color: white;
+		background-color: #000;
+	}
+	nav li a{
+		color: white;
+	}
+}
+@media (min-width: 768px){
+	.menu-container,  .menu-container-special {
+		color: initial;
+		background-color: initial;
+	}
+	nav li a {
+		color: initial;
+	}
+	#menu{
+		display: none;
+	}
+	nav{
+		display: block !important;
+		background-color: none;
+	}
+	nav li{
+		display: inline;
+		float: none;
+	}
+	#web{
+		float: left;
+	}
+	
+}
